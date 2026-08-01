@@ -1,0 +1,70 @@
+# .project metadata for Serverless Workflow
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "serverless-workflow"
+name: "Serverless Workflow"
+description: "Standards-based DSL and open-source dev tools and runtimes are at the heart of the Serverless Workflow project"
+type: "project"
+project_lead: "ricardozanini" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#open-workflow"
+    primary: true
+  - name: "#slack-community"
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2020-07-14T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/1099" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/serverlessworkflow/specification"
+
+website: "https://serverlessworkflow.io"
+
+artwork: "https://landscape.cncf.io/logos/sws_logo.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/open-workflow-specification/specifica/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "open-workflow-specification/specifica"
+
+social:
+  twitter: "https://twitter.com/CNCFWorkflow"
+
+security:
+  policy:
+    path: "https://github.com/open-workflow-specification/specifica/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/open-workflow-specification/specifica/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/open-workflow-specification/specifica/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/cncf/foundation/blob/main/code-of-conduct.md"
+
+legal:
+  license:
+    path: "https://github.com/open-workflow-specification/specifica/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+
+landscape:
+  category: "App Definition and Development"
+  subcategory: "Application Definition & Image Build"
+
+# CLOMonitor Score: 71/100
+# Documentation: 90 | License: 75 | Best Practices: 42 | Security: 59
