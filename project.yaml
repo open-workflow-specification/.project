@@ -38,7 +38,9 @@ adopters:
 
 package_managers:
   maven: "io.serverlessworkflow"
-  npm: "@serverlessworkflow/sdk"
+  npm:
+    - "@openworkflowspec/sdk"
+    - "@openworkflowspec/diagram-editor"
   nuget: "ServerlessWorkflow"
   go: "github.com/open-workflow-specification/sdk-go"
 
