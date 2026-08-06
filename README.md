@@ -1,7 +1,7 @@
-# Serverless Workflow `.project`
+# Open Workflow Specification `.project`
 
 `.project` (dot-project) is a CNCF initiative to centralize and automate metadata management for all CNCF projects.
-This repository holds the canonical metadata for [Serverless Workflow](https://serverlessworkflow.io) and is maintained by the CNCF automation tooling.
+This repository holds the canonical metadata for [Open Workflow Specification](https://open-workflow-specification.org) and is maintained by the CNCF automation tooling.
 
 ## What's in this repo
 
