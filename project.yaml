@@ -31,7 +31,7 @@ repositories:
 
 website: "https://open-workflow-specification.org"
 
-artwork: "https://landscape.cncf.io/logos/sws_logo.svg"
+artwork: "https://openworkflow.cloud/img/logos/sw-logo.png"
 
 adopters:
   path: "https://github.com/open-workflow-specification/.project/blob/main/ADOPTERS.md"
