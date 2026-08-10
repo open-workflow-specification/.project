@@ -1,66 +1,72 @@
-# .project metadata for Serverless Workflow
+# .project metadata for Open Workflow Specification
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Set identity_type under legal (has_dco, has_cla)
-# TODO: Add adopters list (ADOPTERS.md)
-# TODO: Add package_managers if distributed via registries
-
 schema_version: "1.0.0"
-slug: "serverless-workflow"
-name: "Serverless Workflow"
-description: "Standards-based DSL and open-source dev tools and runtimes are at the heart of the Serverless Workflow project"
+slug: "open-workflow-specification"
+name: "Open Workflow Specification"
+description: "A vendor-neutral, open-source DSL for defining and orchestrating workflows across distributed systems."
 type: "project"
-project_lead: "ricardozanini" # TODO: AUTO-DETECTED — please verify
-slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+project_lead:
+  - "ricardozanini"
+  - "cdavernas"
+slack_channels:
   - name: "#open-workflow"
     primary: true
-  - name: "#slack-community"
 
 maturity_log:
   - phase: "sandbox"
     date: "2020-07-14T00:00:00Z"
-    issue: "https://github.com/cncf/toc/pull/1099" # TODO: AUTO-DETECTED — please verify
+    issue: "https://github.com/cncf/toc/pull/1099"
 
 repositories:
-  - "https://github.com/serverlessworkflow/specification"
+  - "https://github.com/open-workflow-specification/specification"
+  - "https://github.com/open-workflow-specification/editor"
+  - "https://github.com/open-workflow-specification/sdk-java"
+  - "https://github.com/open-workflow-specification/sdk-typescript"
+  - "https://github.com/open-workflow-specification/sdk-go"
+  - "https://github.com/open-workflow-specification/sdk-rust"
+  - "https://github.com/open-workflow-specification/sdk-python"
+  - "https://github.com/serverlessworkflow/sdk-net"
+  - "https://github.com/serverlessworkflow/synapse"
 
-website: "https://serverlessworkflow.io"
+website: "https://open-workflow-specification.org"
 
-artwork: "https://landscape.cncf.io/logos/sws_logo.svg"
+artwork: "https://openworkflow.cloud/img/logos/sw-logo.png"
 
-# TODO: Add ADOPTERS.md if your project tracks adopters
-# adopters:
-#   path: "https://github.com/open-workflow-specification/specifica/blob/main/ADOPTERS.md"
+adopters:
+  path: "https://github.com/open-workflow-specification/.project/blob/main/ADOPTERS.md"
 
-
-# TODO: Add package manager identifiers if your project is distributed via registries
-# package_managers:
-#   docker: "open-workflow-specification/specifica"
+package_managers:
+  maven: "io.serverlessworkflow"
+  npm:
+    - "@openworkflowspec/sdk"
+    - "@openworkflowspec/diagram-editor"
+  nuget: "ServerlessWorkflow"
+  go: "github.com/open-workflow-specification/sdk-go"
 
 social:
   twitter: "https://twitter.com/CNCFWorkflow"
 
 security:
   policy:
-    path: "https://github.com/open-workflow-specification/specifica/blob/main/SECURITY.md"
+    path: "https://github.com/open-workflow-specification/specification/blob/main/SECURITY.md"
   contact:
-    advisory_url: "https://github.com/open-workflow-specification/specifica/security/advisories/new"
+    advisory_url: "https://github.com/open-workflow-specification/specification/security/advisories/new"
 
 governance:
   contributing:
-    path: "https://github.com/open-workflow-specification/specifica/blob/main/CONTRIBUTING.md"
+    path: "https://github.com/open-workflow-specification/specification/blob/main/CONTRIBUTING.md"
   code_of_conduct:
     path: "https://github.com/cncf/foundation/blob/main/code-of-conduct.md"
 
 legal:
   license:
-    path: "https://github.com/open-workflow-specification/specifica/blob/main/LICENSE"
+    path: "https://github.com/open-workflow-specification/specification/blob/main/LICENSE"
   identity_type:
     has_dco: true
     has_cla: false
     dco_url:
       path: "https://developercertificate.org/"
-
 
 landscape:
   category: "App Definition and Development"
