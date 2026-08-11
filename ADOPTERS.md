@@ -24,5 +24,6 @@ If you are using the Open Workflow Specification and would like to be listed her
 | [Apache EventMesh Workflow](https://eventmesh.apache.org/) | Workflow engine built on Apache EventMesh |
 | [Apache KIE SonataFlow](https://sonataflow.org/) | Cloud-native workflow orchestration |
 | [Lemline](https://github.com/lemline/lemline) | Workflow runtime |
+| [Quarkus Flow](https://docs.quarkiverse.io/quarkus-flow/dev/) | Lightweight, cloud-native workflow engine for Quarkus with YAML and Java DSL support |
 | [Synapse](https://github.com/serverlessworkflow/synapse) | Reference runtime implementation |
 | [Zigflow](https://github.com/zigflow/zigflow) | Workflow engine |
